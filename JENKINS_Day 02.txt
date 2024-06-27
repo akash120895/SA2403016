@@ -44,7 +44,7 @@ JENKINS AND JAVA INSTALLATION ON LINUX EC2 INSTANCE
 	sudo yum upgrade
 
 ~ Installing Java
-	sudo amazon-linux-extras install java-openjdk11 -y / sudo yum install java-11-amazon-corretto-devel -y
+	sudo amazon-linux-extras install java-openjdk11 -y (note:amazon linux 2 ami select other wise cammand not run)
 
 
 	java -version
