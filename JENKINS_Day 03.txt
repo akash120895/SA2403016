@@ -39,7 +39,15 @@ Package: configure maven, execute maven goals, check for war file
 
 => In a single Jenkins pipeline script, we can write multiple stages.
 => In each stage, we can write multiple steps.
+-----------------------------------------------------------------------------------
+note: before depoly 3rd stage one configuration reuired 
+goto ec2 root run this cammand
 
+$sudo visudo
+
+add above 2nd last line
+$ jenkins ALL=(ALL) NOPASSWD: /bin/cp
+--------------------------------------------------------------------------------------
 Declarative script:
 ---------------------------
 pipeline {
